@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  padding: 20px 34px;
+}
+
+.content b {
+  color: var(--purple-color);
+}
+
+.content p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  max-width: 800px;
+}
+
+.content .comment::before {
+  content: "";
+}
+
+.content article::before {
+  content: "/**";
+  font-size: 16px;
+}
+
+.content article::after {
+  content: "*/";
+  font-size: 16px;
+}
+
+@media (min-width: 981px) {
+  .container {
+    flex-direction: row;
+  }
+}

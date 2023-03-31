@@ -22,11 +22,6 @@
   margin-bottom: 5px;
 }
 
-.content p:not(:first-child)::before {
-  content: "//";
-  margin-right: 5px;
-}
-
 .content div {
   position: relative;
 }
@@ -60,9 +55,5 @@
 @media (min-width: 981px) {
   .content h2 {
     color: var(--purple-color);
-  }
-
-  .content p {
-    font-size: 16px;
   }
 }

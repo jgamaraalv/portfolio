@@ -1,0 +1,81 @@
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.tab {
+  font-size: 12px;
+  width: 100%;
+  list-style: none;
+}
+
+.tab > li {
+  background-color: var(--lines-color);
+  padding: 15px 25px;
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.tab > li i {
+  margin-right: 5px;
+}
+
+.files {
+  list-style: none;
+  height: 0;
+  overflow: hidden;
+}
+
+.files.active {
+  height: auto;
+}
+
+.files li a,
+.files li p {
+  padding: 12px 40px;
+  display: inline-block;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.files li a:hover {
+  color: var(--white-color);
+}
+
+.files li.active a {
+  color: var(--white-color);
+}
+
+.files li a i,
+.files li p i {
+  margin-right: 5px;
+}
+
+@media (min-width: 981px) {
+  .content {
+    max-width: 301px;
+    border-right: 1px solid var(--lines-color);
+    height: 100%;
+  }
+
+  .tab > li {
+    background-color: transparent;
+    padding: 12px 14px;
+    border-bottom: 1px solid var(--lines-color);
+  }
+
+  .files li a,
+  .files li p {
+    padding: 5px 40px;
+  }
+
+  .files li:first-child,
+  .files li:first-child {
+    margin-top: 10px;
+  }
+}

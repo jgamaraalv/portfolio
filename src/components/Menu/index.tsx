@@ -15,13 +15,28 @@ export default function Menu() {
         </Link>
       </li>
       <li>
-        <Link href="/about">_about-me</Link>
+        <Link
+          href="/about/bio"
+          className={pathname.includes("/about") ? styles.active : undefined}
+        >
+          _about-me
+        </Link>
       </li>
       <li>
-        <Link href="/projects">_projects</Link>
+        <Link
+          href="/projects"
+          className={pathname === "/projects" ? styles.active : undefined}
+        >
+          _projects
+        </Link>
       </li>
       <li>
-        <Link href="/contact">_contact-me</Link>
+        <Link
+          href="/contact"
+          className={pathname === "/contact" ? styles.active : undefined}
+        >
+          _contact-me
+        </Link>
       </li>
     </ul>
   );

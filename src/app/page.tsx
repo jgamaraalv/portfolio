@@ -1,4 +1,4 @@
-import styles from "../styles/home.module.css";
+import styles from "./home.module.css";
 
 export default function Home() {
   return (
@@ -15,19 +15,21 @@ export default function Home() {
             <strong>&gt; Senior Front-End Developer</strong>
           </h2>
 
-          <p>
-            I&apos;m passionate front-end developer with 12+ years of
-            experience,
+          <p className="comment">
+            I&apos;m passionate <strong>senior front-end</strong> developer with
+            12+ years of experience,
           </p>
-          <p>
+          <p className="comment">
             skilled in <strong>React</strong>, <strong>Typescript</strong>, and
             a variety of other technologies.
           </p>
 
           <br />
 
-          <p>My mission is to create beautiful,</p>
-          <p>easy-to-use, and performant internet applications.</p>
+          <p className="comment">My mission is to create beautiful,</p>
+          <p className="comment">
+            easy-to-use, and performant internet applications.
+          </p>
         </div>
 
         <div></div>
