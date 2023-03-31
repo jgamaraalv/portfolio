@@ -1,0 +1,27 @@
+.content {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid var(--lines-color);
+  font-size: 14px;
+  flex-direction: column;
+}
+
+.content p {
+  padding: 18px;
+  border-bottom: 1px solid var(--lines-color);
+  width: 100%;
+}
+
+@media (min-width: 981px) {
+  .content {
+    flex-direction: row;
+  }
+
+  .content p {
+    padding: 0;
+    padding-left: 34px;
+    min-width: 300px;
+    border: 0;
+    width: auto;
+  }
+}

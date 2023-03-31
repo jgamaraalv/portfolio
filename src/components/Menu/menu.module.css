@@ -1,0 +1,46 @@
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+}
+
+.list a {
+  padding: 15px;
+  display: flex;
+  position: relative;
+  border-left: 1px solid var(--lines-color);
+  font-size: 12px;
+  height: 100%;
+  align-items: center;
+}
+
+.list li:last-child {
+  margin-left: auto;
+}
+
+.list a.active {
+  color: var(--white-color);
+}
+
+.list a.active:after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: var(--orange-color);
+}
+
+.list a:hover {
+  color: var(--white-color);
+}
+
+@media (min-width: 981px) {
+  .list a {
+    padding: 18px 34px;
+    font-size: 14px;
+  }
+}
