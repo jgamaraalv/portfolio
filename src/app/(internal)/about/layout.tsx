@@ -1,5 +1,7 @@
-import Sidebar, { Tab } from "@/components/Sidebar";
 import styles from "./about.module.css";
+
+import Sidebar, { Tab } from "@/components/Sidebar";
+import Breadcrumb from "@/components/Breadcrumb";
 
 const tabs: Tab[] = [
   {
@@ -42,7 +44,11 @@ export default function AboutLayout({
     <div className={styles.container}>
       <Sidebar tabs={tabs} />
 
-      <div className={styles.content}>{children}</div>
+      <div>
+        <Breadcrumb />
+
+        <div className={styles.content}>{children}</div>
+      </div>
     </div>
   );
 }
