@@ -12,16 +12,16 @@ export default function Home() {
           <h1>João Vequiato</h1>
 
           <h2>
-            <strong>&gt; Senior Front-End Developer</strong>
+            <em>&gt; Senior Front-End Developer</em>
           </h2>
 
           <p className="comment">
-            I&apos;m passionate <strong>senior front-end</strong> developer with
-            12+ years of experience,
+            I&apos;m passionate <em>senior front-end</em> developer with 12+
+            years of experience,
           </p>
           <p className="comment">
-            skilled in <strong>React</strong>, <strong>Typescript</strong>, and
-            a variety of other technologies.
+            skilled in <em>React</em>, <em>Typescript</em>, and a variety of
+            other technologies.
           </p>
 
           <br />

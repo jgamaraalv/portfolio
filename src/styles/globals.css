@@ -95,6 +95,11 @@ footer {
   margin-right: 5px;
 }
 
+em {
+  font-style: normal;
+  font-weight: 600;
+}
+
 @media (min-width: 981px) {
   .main-content {
     height: 96vh;
