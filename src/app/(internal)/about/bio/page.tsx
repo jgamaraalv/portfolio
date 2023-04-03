@@ -1,19 +1,26 @@
 import styles from "../about.module.css";
 
+export const metadata = {
+  title:
+    "Bio - João Vequiato | Senior Front-End Developer | Reactjs, Typescript",
+  description:
+    "Hi there! I&apos;m João, a Senior Front-end Developer from Brazil with over 12 years of experience in web development.",
+};
+
 export default function Bio() {
   return (
     <section>
       <article>
-        <p className={styles.comment}>
+        <h1>
           <b>
             Hi there! I&apos;m João, a <em>Senior Front-end Developer</em> from
             Brazil 🇧🇷 with over 12 years of experience in web development
           </b>
-        </p>
+        </h1>
 
         <br />
 
-        <p className={styles.comment}>
+        <p>
           I began my career at the age of 16 as a <em>Fullstack Developer</em>{" "}
           working with <em>Javascript</em>, <em>jQuery</em>, <em>PHP</em>, and{" "}
           <em>MySQL</em>, and have since grown to specialize in <em>React</em>{" "}
@@ -22,7 +29,7 @@ export default function Bio() {
 
         <br />
 
-        <p className={styles.comment}>
+        <p>
           My mission is to create beautiful, easy-to-use, and high-performance
           internet applications. I&apos;m always looking to evolve and stay
           up-to-date with the latest technologies, such as <em>Web3</em>.
@@ -30,13 +37,13 @@ export default function Bio() {
 
         <br />
 
-        <p className={styles.comment}>
+        <p>
           <b>
             Throughout my career, I&apos;ve accomplished many things, such as:
           </b>
         </p>
 
-        <p className={styles.comment}>
+        <p>
           - Actively participating in expanding a cryptocurrency platform to
           another country, where it quickly grew to moving half a million
           dollars a day within a few months.
@@ -44,7 +51,7 @@ export default function Bio() {
 
         <br />
 
-        <p className={styles.comment}>
+        <p>
           - Refactoring the legacy code of a large Brazilian retailer&apos;s
           e-commerce to <em>React</em>, <em>Typescript</em> and <em>Next.JS</em>
           , which resulted in a 3% increase in conversions on the new page.
@@ -52,7 +59,7 @@ export default function Bio() {
 
         <br />
 
-        <p className={styles.comment}>
+        <p>
           - Creating a whole <em>frontend</em> system from scratch, from UI to
           code, for a bank correspondent platform using <em>React</em> and{" "}
           <em>Typescript</em>.
@@ -60,7 +67,7 @@ export default function Bio() {
 
         <br />
 
-        <p className={styles.comment}>
+        <p>
           As a developer, I&apos;m proficient in <em>React</em>,{" "}
           <em>Typescript</em>, <em>Jest</em>, and many other amazing libraries,
           such as <em>Redux</em>, <em>Styled-components</em>, and
@@ -69,7 +76,7 @@ export default function Bio() {
 
         <br />
 
-        <p className={styles.comment}>
+        <p>
           I also have experience with <em>full-stack development</em> using{" "}
           <em>PHP</em>, <em>Node</em>, <em>MySQL</em>, <em>Firebase</em>,{" "}
           <em>Mongodb</em>, and <em>Socket.io</em>, as well as some AWS services

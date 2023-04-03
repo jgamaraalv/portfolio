@@ -8,7 +8,7 @@ import "../styles/globals.css";
 export const metadata = {
   title: "João Vequiato | Senior Front-End Developer | Reactjs, Typescript",
   description:
-    "Hello, I'm a passionate front-end developer with 12+ years of experience, skilled in React, Typescript, and a variety of other technologies.",
+    "Hello, I'm a passionate senior front-end developer with 12+ years of experience, skilled in React, Typescript, and a variety of other technologies.",
 };
 
 const inter = Inter({

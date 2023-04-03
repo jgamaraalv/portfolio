@@ -29,6 +29,7 @@ const tabs: Tab[] = [
       {
         title: "hello@vequiato.dev",
         icon: <i className="ri-mail-fill"></i>,
+        url: "mailto:hello@vequiato.dev",
         id: "contact",
       },
     ],
