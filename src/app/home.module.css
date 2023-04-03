@@ -2,8 +2,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
   padding: 0 18px;
+  height: calc(100vh - 117px - 57px - 40px);
 }
 
 .content h1,
@@ -37,6 +37,7 @@
   opacity: 0.2;
   filter: blur(87px);
   transform: rotate(-94.3deg);
+  pointer-events: none;
 }
 
 .content div:first-child::after {
@@ -50,9 +51,14 @@
   opacity: 0.2;
   filter: blur(87px);
   transform: rotate(-94.3deg);
+  pointer-events: none;
 }
 
 @media (min-width: 981px) {
+  .content {
+    height: calc(100vh - 54px - 60px - 40px);
+  }
+
   .content h2 {
     color: var(--purple-color);
   }

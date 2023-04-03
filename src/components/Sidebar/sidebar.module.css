@@ -60,7 +60,6 @@
   .content {
     max-width: 301px;
     border-right: 1px solid var(--lines-color);
-    height: 100%;
   }
 
   .tab > li {

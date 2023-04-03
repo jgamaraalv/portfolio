@@ -57,32 +57,19 @@ h2 {
 
 .main-container {
   width: 100vw;
-  height: 100vh;
-  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 
 .main-content {
   width: 100%;
-  max-width: 96vw;
-  height: 92vh;
   background: var(--light-blue-color);
   border-radius: var(--border-radius);
   border: 1px solid var(--lines-color);
   display: flex;
   flex-direction: column;
-}
-
-main,
-section {
-  height: 100%;
-  width: 100%;
-}
-
-main {
-  overflow: hidden;
 }
 
 footer {
@@ -101,10 +88,6 @@ em {
 }
 
 @media (min-width: 981px) {
-  .main-content {
-    height: 96vh;
-  }
-
   h1 {
     font-size: 62px;
   }
