@@ -8,7 +8,7 @@ export default function Menu() {
   const pathname = usePathname();
 
   return (
-    <ul className={styles.list}>
+    <ul className={styles.list} aria-label="Main menu">
       <li>
         <Link href="/" className={pathname === "/" ? styles.active : undefined}>
           _hello
@@ -22,7 +22,7 @@ export default function Menu() {
           _about-me
         </Link>
       </li>
-      <li className={styles.disabled}>
+      <li className={styles.disabled} role="button">
         <Link
           href="/articles"
           className={pathname === "/articles" ? styles.active : undefined}
