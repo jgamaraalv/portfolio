@@ -1,5 +1,3 @@
-import styles from "../about.module.css";
-
 export const metadata = {
   title:
     "Bio - João Vequiato | Senior Front-End Developer | Reactjs, Typescript",

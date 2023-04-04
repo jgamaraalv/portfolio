@@ -31,8 +31,6 @@ export default function Home() {
             easy-to-use, and performant internet applications.
           </p>
         </div>
-
-        <div></div>
       </div>
     </section>
   );
