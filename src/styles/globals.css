@@ -1,6 +1,6 @@
 :root {
   --border-radius: 8px;
-  --font: "Fira Code", "Open Sans";
+  --font: "Fira Code", monospace;
 
   --lines-color: #1e2d3d;
 

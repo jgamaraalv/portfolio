@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Fira_Code } from "next/font/google";
 import "remixicon/fonts/remixicon.css";
 
 import Header from "@/components/Header";
@@ -11,7 +11,7 @@ export const metadata = {
     "Hello, I'm a passionate senior front-end developer with 12+ years of experience, skilled in React, Typescript, and a variety of other technologies.",
 };
 
-const inter = Inter({
+const fira = Fira_Code({
   subsets: ["latin"],
   variable: "--font",
   display: "swap",
@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={fira.variable}>
       <body>
         <div className="main-container">
           <div className="main-content">
