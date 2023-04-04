@@ -25,7 +25,7 @@ export default function Menu() {
       <li>
         <Link
           href="/blog"
-          className={pathname === "/blog" ? styles.active : undefined}
+          className={pathname.includes("/blog") ? styles.active : undefined}
           aria-disabled={true}
         >
           _blog

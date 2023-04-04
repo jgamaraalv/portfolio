@@ -16,10 +16,6 @@
   align-items: center;
 }
 
-.list li:last-child {
-  margin-left: auto;
-}
-
 .list a.active {
   color: var(--white-color);
 }
@@ -42,5 +38,9 @@
   .list a {
     padding: 18px 34px;
     font-size: 14px;
+  }
+
+  .list li:last-child {
+    margin-left: auto;
   }
 }
