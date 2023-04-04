@@ -38,12 +38,6 @@
   color: var(--white-color);
 }
 
-.disabled {
-  pointer-events: none;
-  opacity: 0.5;
-  position: relative;
-}
-
 @media (min-width: 981px) {
   .list a {
     padding: 18px 34px;

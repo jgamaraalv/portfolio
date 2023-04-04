@@ -2,6 +2,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  border-bottom: 1px solid var(--lines-color);
+  flex-shrink: 0;
 }
 
 .tab {
@@ -35,12 +37,20 @@
 
 .files li a,
 .files li p {
-  padding: 12px 30px;
+  padding: 10px 20px;
   display: inline-block;
   width: 100%;
   display: flex;
   align-items: center;
   font-size: 13px;
+}
+
+.files li:first-child {
+  margin-top: 10px;
+}
+
+.files li:last-child {
+  margin-bottom: 10px;
 }
 
 .files li a:hover {
@@ -60,6 +70,12 @@
   .content {
     max-width: 301px;
     border-right: 1px solid var(--lines-color);
+    border-bottom: 0;
+  }
+
+  .files li a,
+  .files li p {
+    padding: 5px 13px;
   }
 
   .tab > li {
@@ -68,9 +84,8 @@
     border-bottom: 1px solid var(--lines-color);
   }
 
-  .files li a,
-  .files li p {
-    padding: 5px 40px;
+  .tab:not(:first-child) {
+    border-top: 1px solid var(--lines-color);
   }
 
   .files li:first-child,

@@ -22,13 +22,13 @@ export default function Menu() {
           _about-me
         </Link>
       </li>
-      <li className={styles.disabled} role="button">
+      <li>
         <Link
-          href="/articles"
-          className={pathname === "/articles" ? styles.active : undefined}
+          href="/blog"
+          className={pathname === "/blog" ? styles.active : undefined}
           aria-disabled={true}
         >
-          _articles
+          _blog
         </Link>
       </li>
       <li>

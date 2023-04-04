@@ -1,6 +1,5 @@
 .container {
-  width: 100%;
-  padding: 0 14px;
+  padding: 0 20px;
   border-bottom: 1px solid var(--lines-color);
   display: none;
 }
@@ -12,9 +11,7 @@
 .content {
   align-items: center;
   display: flex;
-  justify-content: space-between;
   padding: 12px 0 12px 0;
-  width: 100%;
 }
 
 .content button {
@@ -27,12 +24,15 @@
 
 @media (min-width: 981px) {
   .container {
-    display: block;
+    display: flex;
   }
 
   .content {
-    max-width: 200px;
     border-right: 1px solid var(--lines-color);
-    padding: 12px 20px 12px 0;
+    padding: 12px 12px 12px 0;
+  }
+
+  .content button {
+    margin-left: 20px;
   }
 }
