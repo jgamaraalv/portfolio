@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+
 async function getData(id: number) {
   const res = await fetch(`https://dev.to/api/articles/${id}`);
 
@@ -27,6 +29,15 @@ export async function generateStaticParams() {
     slug: post.slug,
     id: post.id,
   }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: { id: number };
+}): Promise<Metadata> {
+  const post = await getData(params.id);
+  return { title: post.title, description: post.description };
 }
 
 async function BlogPost({ params }: { params: { slug: string; id: number } }) {
