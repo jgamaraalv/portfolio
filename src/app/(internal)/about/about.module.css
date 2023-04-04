@@ -23,8 +23,7 @@
 
 .content {
   width: 100%;
-  overflow-y: scroll;
-  padding: 20px 34px;
+  padding: 20px;
   min-height: calc(100vh - 117px - 57px - 40px);
 }
 

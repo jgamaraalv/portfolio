@@ -12,7 +12,7 @@
 
 .tab > li {
   background-color: var(--lines-color);
-  padding: 15px 25px;
+  padding: 15px 20px;
   color: var(--white-color);
   display: flex;
   align-items: center;
@@ -35,7 +35,7 @@
 
 .files li a,
 .files li p {
-  padding: 12px 40px;
+  padding: 12px 30px;
   display: inline-block;
   width: 100%;
   display: flex;
