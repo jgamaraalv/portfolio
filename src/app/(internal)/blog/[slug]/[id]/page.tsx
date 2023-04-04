@@ -43,15 +43,24 @@ export async function generateMetadata({
 async function BlogPost({ params }: { params: { slug: string; id: number } }) {
   const { id } = params;
   const post = await getData(id);
-
   return (
     <section>
       <article>
+        {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
+        <p>/**</p>
         <h1>
           <b>{post.title}</b>
         </h1>
 
         <div dangerouslySetInnerHTML={{ __html: post.body_html }}></div>
+
+        <em>
+          Tags:
+          {post.tags.map((tag: string) => (
+            <small key={tag}>{tag}</small>
+          ))}
+        </em>
+        <p>*/</p>
       </article>
     </section>
   );

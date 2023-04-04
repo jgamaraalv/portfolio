@@ -30,7 +30,6 @@
   width: 100%;
   padding: 20px;
   min-height: calc(100vh - 117px - 57px - 40px);
-
   max-width: 980px;
 }
 
@@ -79,6 +78,20 @@
   font-size: 16px;
   text-decoration: underline;
   color: var(--green-color);
+}
+
+.content article > em {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.content article > em small {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: var(--medium-blue-color);
+  color: var(--grey-blue-color);
+  border-radius: 5px;
 }
 
 @media (min-width: 981px) {
