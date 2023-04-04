@@ -94,6 +94,11 @@
   border-radius: 5px;
 }
 
+.content h4,
+.content em {
+  font-size: 16px;
+}
+
 @media (min-width: 981px) {
   .container {
     min-height: calc(100vh - 54px - 60px - 40px);
