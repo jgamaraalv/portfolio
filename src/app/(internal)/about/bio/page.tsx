@@ -9,6 +9,8 @@ export default function Bio() {
   return (
     <section>
       <article>
+        {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
+        <p>/**</p>
         <h1>
           <b>
             Hi there! I&apos;m João, a <em>Senior Front-end Developer</em> from
@@ -81,6 +83,7 @@ export default function Bio() {
           such as <em>S3</em>, <em>Cloudfront</em>, <em>Route 53</em>, and{" "}
           <em>CodeBuild</em>.
         </p>
+        <p>*/</p>
       </article>
     </section>
   );

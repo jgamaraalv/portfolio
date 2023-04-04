@@ -9,6 +9,8 @@ export default function Experience() {
   return (
     <section>
       <article>
+        {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
+        <p>/**</p>
         <h1>
           <b>My Experience</b>
         </h1>
@@ -199,6 +201,7 @@ export default function Experience() {
             and others.
           </em>
         </p>
+        <p>*/</p>
       </article>
     </section>
   );

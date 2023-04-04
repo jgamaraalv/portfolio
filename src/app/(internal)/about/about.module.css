@@ -38,20 +38,6 @@
   max-width: 800px;
 }
 
-.content .comment::before {
-  content: "";
-}
-
-.content article::before {
-  content: "/**";
-  font-size: 16px;
-}
-
-.content article::after {
-  content: "*/";
-  font-size: 16px;
-}
-
 @media (min-width: 981px) {
   .container {
     min-height: calc(100vh - 54px - 60px - 40px);
