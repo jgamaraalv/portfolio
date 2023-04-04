@@ -20,7 +20,9 @@ export default function Sidebar({ tabs }: SidebarProps) {
       return;
     }
 
-    setActive(id || tabs[0].id);
+    if (id) {
+      setActive(id);
+    }
   };
 
   return (

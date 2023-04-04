@@ -25,6 +25,7 @@
   width: 100%;
   overflow-y: scroll;
   padding: 20px 34px;
+  min-height: calc(100vh - 117px - 57px - 40px);
 }
 
 .content b {
@@ -53,6 +54,7 @@
 
 @media (min-width: 981px) {
   .container {
+    min-height: calc(100vh - 54px - 60px - 40px);
     flex-direction: row;
   }
 }
