@@ -22,21 +22,23 @@ export default function Menu() {
           _about-me
         </Link>
       </li>
-      <li>
+      <li className={styles.disabled}>
         <Link
-          href="/projects"
-          className={pathname === "/projects" ? styles.active : undefined}
+          href="/articles"
+          className={pathname === "/articles" ? styles.active : undefined}
+          aria-disabled={true}
         >
-          _projects
+          _articles
         </Link>
       </li>
       <li>
-        <Link
-          href="/contact"
+        <a
+          href="mailto:hello@vequiato.dev"
           className={pathname === "/contact" ? styles.active : undefined}
+          target="_blank"
         >
           _contact-me
-        </Link>
+        </a>
       </li>
     </ul>
   );
