@@ -19,7 +19,7 @@ export default function Menu() {
           href="/about/bio"
           className={pathname.includes("/about") ? styles.active : undefined}
         >
-          _about-me
+          _about
         </Link>
       </li>
       <li>
@@ -37,7 +37,7 @@ export default function Menu() {
           className={pathname === "/contact" ? styles.active : undefined}
           target="_blank"
         >
-          _contact-me
+          _contact
         </a>
       </li>
     </ul>
