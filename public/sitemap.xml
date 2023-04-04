@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<url>
+  <loc>https://www.vequiato.dev/</loc>
+  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.vequiato.dev/about/bio</loc>
+  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vequiato.dev/blog</loc>
+  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vequiato.dev/about/experience</loc>
+  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vequiato.dev/blog/6-react-questions-for-technical-interviews-and-their-answers-10p3/1318608</loc>
+  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vequiato.dev/blog/understanding-higher-order-function-1dlg/250804</loc>
+  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vequiato.dev/blog/understanding-closures-h2b/245969</loc>
+  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vequiato.dev/blog/understanding-classes-and-prototypes-5hhf/245484</loc>
+  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
