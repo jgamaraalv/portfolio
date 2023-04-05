@@ -6,8 +6,24 @@ export const metadata = {
 };
 
 export default function Bio() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "João Vequiato",
+    email: "hello@vequiato.dev",
+    jobTitle: "Senior Front-End Developer",
+    url: "https://www.vequiato.dev/",
+    knowsAbout:
+      "Senior Front-end Developer from Brazil with over 12 years of experience in web development",
+  };
+
   return (
     <section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <article>
         {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
         <p>/**</p>

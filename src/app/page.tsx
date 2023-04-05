@@ -1,8 +1,24 @@
 import styles from "./home.module.css";
 
 export default function Home() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: "João Vequiato",
+    email: "hello@vequiato.dev",
+    jobTitle: "Senior Front-End Developer",
+    url: "https://www.vequiato.dev/",
+    knowsAbout:
+      "Senior Front-end Developer from Brazil with over 12 years of experience in web development",
+  };
+
   return (
     <section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <div className={`${styles.content} content-height`}>
         <div>
           <p>
