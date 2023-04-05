@@ -1,6 +1,8 @@
 import Sidebar, { Tab } from "@/components/Sidebar";
 import Breadcrumb from "@/components/Breadcrumb";
 
+export const revalidate = 60;
+
 const getData = async () => {
   const res = await fetch("https://dev.to/api/articles?username=jgamaraalv");
 
