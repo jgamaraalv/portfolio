@@ -37,7 +37,16 @@ export async function generateMetadata({
   params: { id: number };
 }): Promise<Metadata> {
   const post = await getData(params.id);
-  return { title: post.title, description: post.description };
+  return {
+    title: post.title,
+    description: post.description,
+    authors: {
+      name: "João Vequiato - Senior Front-End Developer",
+      url: "https://www.vequiato.dev/",
+    },
+    keywords: post.tags.map((tag: string) => tag),
+    creator: "João Vequiato - Senior Front-End Developer",
+  };
 }
 
 async function BlogPost({ params }: { params: { slug: string; id: number } }) {
