@@ -1,5 +1,3 @@
-import styles from "./about.module.css";
-
 import Sidebar, { Tab } from "@/components/Sidebar";
 import Breadcrumb from "@/components/Breadcrumb";
 
@@ -41,13 +39,13 @@ export default function AboutLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className={styles.container}>
+    <div className="internal-container">
       <Sidebar tabs={tabs} />
 
       <div>
         <Breadcrumb />
 
-        <div className={styles.content}>{children}</div>
+        <div className="internal-content content-height">{children}</div>
       </div>
     </div>
   );

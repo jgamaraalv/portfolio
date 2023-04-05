@@ -1,5 +1,3 @@
-import styles from "./blog.module.css";
-
 import Sidebar, { Tab } from "@/components/Sidebar";
 import Breadcrumb from "@/components/Breadcrumb";
 
@@ -23,7 +21,7 @@ const getData = async () => {
         id: post.id,
       })),
     },
-  ];
+  ] as Tab[];
 };
 
 export default async function BlogLayout({
@@ -34,13 +32,13 @@ export default async function BlogLayout({
   const tabs = await getData();
 
   return (
-    <div className={styles.container}>
+    <div className="internal-container">
       <Sidebar tabs={tabs} />
 
       <div>
         <Breadcrumb />
 
-        <div className={styles.content}>{children}</div>
+        <div className="internal-content content-height">{children}</div>
       </div>
     </div>
   );

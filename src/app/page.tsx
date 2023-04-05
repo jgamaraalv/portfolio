@@ -3,7 +3,7 @@ import styles from "./home.module.css";
 export default function Home() {
   return (
     <section>
-      <div className={styles.content}>
+      <div className={`${styles.content} content-height`}>
         <div>
           <p>
             <small>Hello, I am</small>

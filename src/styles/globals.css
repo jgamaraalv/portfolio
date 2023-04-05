@@ -62,6 +62,10 @@ h2 {
   padding: 20px;
 }
 
+.content-height {
+  min-height: calc(100vh - 117px - 57px - 40px);
+}
+
 .main-content {
   width: 100%;
   background: var(--light-blue-color);
@@ -69,6 +73,106 @@ h2 {
   border: 1px solid var(--lines-color);
   display: flex;
   flex-direction: column;
+}
+
+.internal-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.internal-container h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.internal-container h2,
+.internal-container h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  color: var(--purple-color);
+}
+
+.internal-container small {
+  display: block;
+}
+
+.internal-content {
+  width: 100%;
+  padding: 20px;
+  max-width: 980px;
+}
+
+.internal-content ol {
+  padding-left: 29px;
+  font-size: 16px;
+}
+
+.internal-content ol li {
+  margin-bottom: 10px;
+}
+
+.internal-content svg {
+  display: none;
+}
+
+.internal-content p > code {
+  background-color: var(--grey-blue-color);
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: var(--medium-blue-color);
+}
+
+.internal-content pre {
+  background-color: var(--medium-blue-color);
+  color: var(--grey-blue-color);
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 20px 0;
+  overflow: scroll;
+}
+
+.internal-content pre + div {
+  display: none;
+}
+
+.internal-content b {
+  color: var(--purple-color);
+}
+
+.internal-content p {
+  margin-bottom: 15px;
+  margin-top: 5px;
+  max-width: 800px;
+  line-height: 26px;
+}
+
+.internal-content a {
+  font-size: 16px;
+  text-decoration: underline;
+  color: var(--green-color);
+}
+
+.internal-content article > em {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.internal-content article > em small {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: var(--medium-blue-color);
+  color: var(--grey-blue-color);
+  border-radius: 5px;
+}
+
+.internal-content h4,
+.internal-content em {
+  font-size: 16px;
 }
 
 footer {
@@ -86,6 +190,26 @@ em {
   font-weight: 600;
 }
 
+.loader {
+  width: 48px;
+  height: 48px;
+  border: 5px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media (min-width: 981px) {
   h1 {
     font-size: 62px;
@@ -93,5 +217,17 @@ em {
 
   h2 {
     font-size: 32px;
+  }
+
+  .content-height {
+    min-height: calc(100vh - 54px - 60px - 40px);
+  }
+
+  .internal-container {
+    flex-direction: row;
+  }
+
+  .internal-container > div:nth-child(2) {
+    width: calc(100% - 301px);
   }
 }
