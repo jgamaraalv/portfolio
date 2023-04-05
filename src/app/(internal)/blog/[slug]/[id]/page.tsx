@@ -60,6 +60,8 @@ async function BlogPost({ params }: { params: { slug: string; id: number } }) {
     image: post.cover_image,
     description: post.description,
     name: post.title,
+    headline: post.title,
+    about: post.tags.map((tag: string) => tag),
     author: "João Vequiato - Senior Front-End Developer",
   };
 
