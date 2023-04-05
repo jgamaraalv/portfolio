@@ -52,8 +52,24 @@ export async function generateMetadata({
 async function BlogPost({ params }: { params: { slug: string; id: number } }) {
   const { id } = params;
   const post = await getData(id);
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    articleBody: post.body_markdown,
+    image: post.cover_image,
+    description: post.description,
+    name: post.title,
+    author: "João Vequiato - Senior Front-End Developer",
+  };
+
   return (
     <section>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       <article>
         {/* eslint-disable-next-line react/jsx-no-comment-textnodes */}
         <p>/**</p>
