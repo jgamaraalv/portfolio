@@ -5,44 +5,56 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
   <loc>https://www.vequiato.dev/</loc>
-  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <lastmod>2023-04-11T12:19:04+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://www.vequiato.dev/about/bio</loc>
-  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <lastmod>2023-04-11T12:19:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.vequiato.dev/blog</loc>
-  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <lastmod>2023-04-11T12:19:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://www.vequiato.dev/about/experience</loc>
-  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <lastmod>2023-04-11T12:19:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vequiato.dev/blog/maximize-your-learning-and-productivity-with-this-chrome-extension-nhj/1431622</loc>
+  <lastmod>2023-04-11T12:19:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.vequiato.dev/blog/react-render-props-pattern-314j/1426266</loc>
+  <lastmod>2023-04-11T12:19:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.vequiato.dev/blog/6-react-questions-for-technical-interviews-and-their-answers-10p3/1318608</loc>
-  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <lastmod>2023-04-11T12:19:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.vequiato.dev/blog/understanding-higher-order-function-1dlg/250804</loc>
-  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <lastmod>2023-04-11T12:19:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.vequiato.dev/blog/understanding-closures-h2b/245969</loc>
-  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <lastmod>2023-04-11T12:19:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://www.vequiato.dev/blog/understanding-classes-and-prototypes-5hhf/245484</loc>
-  <lastmod>2023-04-04T19:24:03+00:00</lastmod>
+  <lastmod>2023-04-11T12:19:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
