@@ -3,6 +3,7 @@ import "remixicon/fonts/remixicon.css";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import Analytics from "@/components/Analytics";
 import "../styles/globals.css";
 
 export const metadata = {
@@ -23,18 +24,22 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={fira.variable}>
-      <body>
-        <div className="main-container">
-          <div className="main-content">
-            <Header />
+    <>
+      <Analytics />
 
-            <main>{children}</main>
+      <html lang="en" className={fira.variable}>
+        <body>
+          <div className="main-container">
+            <div className="main-content">
+              <Header />
 
-            <Footer />
+              <main>{children}</main>
+
+              <Footer />
+            </div>
           </div>
-        </div>
-      </body>
-    </html>
+        </body>
+      </html>
+    </>
   );
 }
