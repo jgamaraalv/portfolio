@@ -14,7 +14,7 @@ export default function Experience() {
         <h1>
           <b>My Experience</b>
         </h1>
-        <br />
+        <hr />
         <h2>
           <b>
             <em>Frontend Developer</em>
@@ -22,7 +22,6 @@ export default function Experience() {
 
           <small>Ripio - Apr 2021 - Present [Remote]</small>
         </h2>
-        <br />
         <p>
           - Responsible for the development and maintenance of new features for
           Bitcointrade, one of the largest cryptocurrency exchanges in Latin
@@ -41,7 +40,7 @@ export default function Experience() {
             Redux.
           </em>
         </p>
-        <br /> <br />
+        <hr />
         <h2>
           <b>
             <em>Frontend Developer</em>
@@ -49,7 +48,7 @@ export default function Experience() {
 
           <small>iClinic - Jan 2021 - Apr 2021 [Remote]</small>
         </h2>
-        <br />
+
         <p>
           I was responsible for working, together with the squad, in the
           development and maintenance of a new iClinic&apos;s product called
@@ -63,7 +62,7 @@ export default function Experience() {
             Redux.
           </em>
         </p>
-        <br /> <br />
+        <hr />
         <h2>
           <b>
             <em>Frontend Developer</em>
@@ -71,7 +70,6 @@ export default function Experience() {
 
           <small>Invillia - May 2020 - Dec 2020 [Remote]</small>
         </h2>
-        <br />
         <p>
           I was responsible for working, together with the squad, in the
           development and maintenance of the new product page of the e-commerces
@@ -85,7 +83,7 @@ export default function Experience() {
             Testing Libray, Jest, Node.js, Redux.
           </em>
         </p>
-        <br /> <br />
+        <hr />
         <h2>
           <b>
             <em>Frontend Developer</em>
@@ -93,7 +91,6 @@ export default function Experience() {
 
           <small>BitcoinBack - Aug 2019 - May 2020 [Remote]</small>
         </h2>
-        <br />
         <p>
           I was responsible for the frontend development of the BitcoinBack
           project, a Bitcoin cashback extension of the best Bitcoin brokerage in
@@ -107,7 +104,7 @@ export default function Experience() {
             Extensions.
           </em>
         </p>
-        <br /> <br />
+        <hr />
         <h2>
           <b>
             <em>Fullstack Developer</em>
@@ -115,7 +112,6 @@ export default function Experience() {
 
           <small>eCorban - Apr 2018 - Aug 2019</small>
         </h2>
-        <br />
         <p>
           I was responsible for analysis and development, from the graphical
           interface to the frontend development of a system for banking
@@ -134,7 +130,7 @@ export default function Experience() {
             Node.js, Redux.
           </em>
         </p>
-        <br /> <br />
+        <hr />
         <h2>
           <b>
             <em>Frontend Developer</em>
@@ -142,7 +138,6 @@ export default function Experience() {
 
           <small>Mixd Internet - Sep 2014 - Mar 2018</small>
         </h2>
-        <br />
         <p>
           I was responsible for frontend development of web sites, portals and
           web apps for several companies.
@@ -159,7 +154,7 @@ export default function Experience() {
             HTML5, Reactjs.
           </em>
         </p>
-        <br /> <br />
+        <hr />
         <h2>
           <b>
             <em>Technology Consultant I</em>
@@ -167,7 +162,6 @@ export default function Experience() {
 
           <small>DXC Technology - Jan 2014 - Mar 2014</small>
         </h2>
-        <br />
         <p>
           I was responsible for developing new features and maintaining the
           Petrobras intranet system.
@@ -179,8 +173,7 @@ export default function Experience() {
             CSS3, Javascript, jQuery, Oracle DB and others.
           </em>
         </p>
-        <br />
-        <br />
+        <hr />
         <h2>
           <b>
             <em>Fullstack Developer</em>
@@ -188,7 +181,6 @@ export default function Experience() {
 
           <small>Avanzi Tecnologia - Jun 2012 - Dec 2013</small>
         </h2>
-        <br />
         <p>
           I was responsible for the analysis and development, from the graphical
           interface to the development, from the backend to the frontend, of

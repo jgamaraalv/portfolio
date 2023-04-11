@@ -21,7 +21,7 @@ export default function Sidebar({ tabs }: SidebarProps) {
     }
 
     if (id) {
-      setActive(id);
+      setActive(active === id ? "" : id);
     }
   };
 
