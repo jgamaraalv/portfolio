@@ -227,6 +227,10 @@ ul {
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 @media (min-width: 981px) {
   h1 {
     font-size: 62px;
